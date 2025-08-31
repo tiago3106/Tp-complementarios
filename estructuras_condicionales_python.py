@@ -49,7 +49,6 @@ elif (dia_semana == "jueves"):
         print("No asistio la mayoria")
     elif asistencia == 50:
         print("Asistio la mitad")
-print (dia, mes, dia_semana)
 if (dia_semana == "viernes"):
     if (mes == 1) or (mes == 7):
         if (dia == 1) :
