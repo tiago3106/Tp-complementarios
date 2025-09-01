@@ -59,8 +59,3 @@ if (dia_semana == "viernes"):
             print (f"la cantidad total seria de {total}")
 
 print ("Hasta pronto")
-        
-
-
-
-
