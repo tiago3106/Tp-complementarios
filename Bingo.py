@@ -1,12 +1,10 @@
+#bingo 5 x 5 
 import random
-columnas =5
-filas = 5
-
+ganar = False
+filas = 5   
 num = random.sample(range(1,51),25)
-talon = [[random.choice(num)for _ in range(5)]for _ in range(5)]
-for filas in talon:
-    for elementos in talon:
-        if elementos == elementos:
-            random.choice(num)
-print(talon)
-
+talon = [random.sample(num[i:i+5],5) for i in range(0,25,5)]
+print("Bienvenido al Bingo")
+print("Tu talon es: ")
+for fila in talon:
+    print(fila)
